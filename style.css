@@ -22,6 +22,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav a {
@@ -33,7 +34,9 @@ body {
 }
 
 .nav a:first-child {
+  font-size: 2.5rem;
   color: #dcff7c;
+  letter-spacing: -5px;
 }
 
 .about p {
@@ -182,4 +185,8 @@ a.aboutme {
 }
 .block-20 {
   left: 95%;
+}
+
+.sub-header a:hover{
+  color: #dcff7c;
 }
